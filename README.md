@@ -9,7 +9,7 @@
 <b>BioSample</b>: Multiple BioSamples can be part of one BioProject. Usually, every replicate in the screening data is entered as one BioSample. A single BioSample can have multiple fastq files associated with it. For example, if a sample has been sequenced using the Illumina NextSeq platform, this sample will have 4 lanes of sequencing associated with it, i.e. 4 fastq files. All 4 fastq files can be uploaded as part of one BioSample. 
 
 
-To submit screening data to SRA, first create an account with NCBI if you do not already have one. Then, create a new “BioProject” here for your submission. The steps to do this are as follows:
+To submit screening data to SRA, first create an account with NCBI if you do not already have one. Then, create a new “BioProject” <a href="https://submit.ncbi.nlm.nih.gov/subs/bioproject/" target=blank>here</a> for your submission. The steps to do this are as follows:
 <ol>
   <li>Click on the “New Submission” button and fill in all the required submitter information. </li>
   <li>To submit sequencing data for a standard CRISPR screen sequenced by GPP, the “Project data type” should be  “Raw sequence reads”. The sample scope should then be selected appropriately from the drop-down menu. </li>
@@ -17,7 +17,7 @@ To submit screening data to SRA, first create an account with NCBI if you do not
 Continue to then select when the data should be released, include a “Project Title” (usually the title of the manuscript) and a description about the project (usually the abstract of the manuscript). You can also include grants and consortia associated with the project in this page. </li>
     <li>If you are submitting more than on one BioSample complete the BioProject without entering a BioSample number. The BioSamples can be created later using the BioProject number of the format PRJNA# you receive.</li>
 </ol>
-To submit your BioSamples, first click the “New Submission” button here and fill in all the required submitter information. Then:
+To submit your BioSamples, first click the “New Submission” button <a href="https://submit.ncbi.nlm.nih.gov/subs/biosample/">here</a> and fill in all the required submitter information. Then:
 <ol>
   <li>Select when the data should be released and then select “Batch/Multiple BioSamples”. </li>
   <li>Next, select the BioSample “package” that fits your data best. If all samples are human cell lines, select “Human sample”.</li>
@@ -33,7 +33,7 @@ To submit your BioSamples, first click the “New Submission” button here and 
   <li>Multiple batch BioSample submissions can be associated with a single BioProject. The appropriate BioProject accession should be entered in the attributes file. </li>
   <ol><li type='a'>If all fastq files for data included in the paper are not ready for submission, a few files can be uploaded to receive an SRA number to be included in the manuscript. Remaining fastq files can be uploaded later by including the same BioProject accession in the attributes file of the BioSamples. In the BioSample attributes file only include information about the BioSamples for which fastq files are ready for submission. </li></ol>
 </ol>
-Once a BioProject has been created and the BioSamples have been submitted, start a new SRA submission here by clicking on “New Submission” and fill in all the required submitter information. 
+Once a BioProject has been created and the BioSamples have been submitted, start a new SRA submission <a href="https://submit.ncbi.nlm.nih.gov/subs/sra/">here</a> by clicking on “New Submission” and fill in all the required submitter information. 
 <ol>
   <li>If you have already submitted a BioProject, enter the BioProject accession of the form PRJNA12345. Then, select “Yes” if BioSamples have been submitted and select when the data should be released. </li>
   <li>Next, fill in the SRA metadata by using the built-in editor or by downloading the file in Excel/TSV format. Downloading the file is the preferred option. Points to remember when filling this table:</li>
