@@ -1,6 +1,5 @@
 ---
 layout: default
-title: SRA submission
 ---
 ## Glossary
 
