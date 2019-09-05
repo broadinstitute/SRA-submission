@@ -7,7 +7,7 @@
 <b>BioSample</b>: Multiple BioSamples can be part of one BioProject. Usually, every replicate in the screening data is entered as one BioSample. A single BioSample can have multiple fastq files associated with it. For example, if a sample has been sequenced using the Illumina NextSeq platform, this sample will have 4 lanes of sequencing associated with it, i.e. 4 fastq files. All 4 fastq files can be uploaded as part of one BioSample. 
 
 ## Guide
-To submit screening data to SRA, first create an account with NCBI if you do not already have one. Then, create a new “BioProject” <a href="https://submit.ncbi.nlm.nih.gov/subs/bioproject/" target=blank>here</a> for your submission. The steps to do this are as follows:
+To submit screening data to SRA, first create an account with NCBI if you do not already have one. Then, create a new “BioProject” <a href="https://submit.ncbi.nlm.nih.gov/subs/bioproject/">here</a> for your submission. The steps to do this are as follows:
 <ol>
   <li>Click on the “New Submission” button and fill in all the required submitter information. </li>
   <li>To submit sequencing data for a standard CRISPR screen sequenced by GPP, the “Project data type” should be  “Raw sequence reads”. The sample scope should then be selected appropriately from the drop-down menu. </li>
