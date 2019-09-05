@@ -1,3 +1,5 @@
 title: Sequence Read Archive (SRA) submission
 description: Guide to submitting data to Sequence Read Archive
+github:
+  is_project_page: false
 theme: jekyll-theme-cayman
