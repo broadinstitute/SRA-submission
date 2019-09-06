@@ -1,5 +1,5 @@
 title: Sequence Read Archive (SRA) submission
-description: Guide to submitting data to Sequence Read Archive
+description: Guide to submitting pooled CRISPR screen sequencing data to SRA
 theme: jekyll-theme-cayman
 github:
   is_project_page: false
