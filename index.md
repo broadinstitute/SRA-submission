@@ -46,7 +46,7 @@ Once a BioProject has been created and the BioSamples have been submitted, start
     <li type='a'>Multiple fastq files can be uploaded for a single BioSample. </li>
     <li type='a'>All the files you intend to upload should be included in the SRA metadata file. </li>
   </ol>
-  <li>Once the SRA metadata file has been filled and uploaded, this portal can be used to upload files. The following page gives 3 options for file upload. The “Web browser upload via HTTP or Aspera Connect plugin” option should only be used if only few files need to be uploaded. The page provides detailed instructions regarding file upload using the FTP or Amazon S3 bucket. </li>
+  <li>Once the SRA metadata file has been filled and uploaded, this portal can be used to upload files. The following page gives 3 options for file upload. The “Web browser upload via HTTP or Aspera Connect plugin” option should be used if only few files need to be uploaded. The page provides detailed instructions regarding file upload using FTP, Amazon S3 bucket or Aspera Command-Line upload. FTP upload is NOT recommended if while uploading large files. </li>
   <li>Files should be uploaded after which SRA submission is complete. </li>
 </ol>
 
