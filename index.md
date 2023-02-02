@@ -56,6 +56,9 @@ Once a BioProject has been created and the BioSamples have been submitted, start
 <ol>
   <li type='a'>File with sample barcodes and sample conditions used in the manuscript.</li>
   <li type='a'>Sequencing ID or PoolQ ID or date of sequencing deconvolution to help locate sequencing files.</li>
+You can use the BEV tool on GPP LIMS to demultiplex FASTQ files. Follow steps 1-3 under 
+"[Running BEV on LIMS](https://broadinstitute.github.io/be-validation-pipeline/)", 
+then check the box that says "Demultiplex only." 
 
 
 
