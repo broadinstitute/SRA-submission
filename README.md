@@ -1,2 +1,2 @@
 Development for SRA submission documentation
-https://mhegde.github.io/SRA-submission
+https://broadinstitute.github.io/SRA-submission
