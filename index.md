@@ -10,11 +10,16 @@ layout: default
 <b>BioSample</b>: Multiple BioSamples can be part of one BioProject. Usually, every replicate in the screening data is entered as one BioSample. A single BioSample can have multiple fastq files associated with it. For example, if a sample has been sequenced using the Illumina NextSeq platform, this sample will have 4 lanes of sequencing associated with it, i.e. 4 fastq files. All 4 fastq files can be uploaded as part of one BioSample. 
 
 ## Guide
-To submit screening data to SRA, first create an account with NCBI if you do not already have one. Then, create a new “BioProject” <a href="https://submit.ncbi.nlm.nih.gov/subs/bioproject/">here</a> for your submission. The steps to do this are as follows:
+To submit screening data to SRA, sign in with Google. If this is your first time submitting to SRA, then you must update your profile. 
+Then, create a new “BioProject” <a href="https://submit.ncbi.nlm.nih.gov/subs/bioproject/">here</a> for your submission. 
+The steps to do this are as follows:
+
 <ol>
   <li>Click on the “New Submission” button and fill in all the required submitter information. </li>
-  <li>To submit sequencing data for a standard CRISPR screen sequenced by GPP, the “Project data type” should be  “Raw sequence reads”. The sample scope should then be selected appropriately from the drop-down menu. </li>
-  <li>The following page is populated based on the selected scope. Enter information here about the sample organism. 
+  <li>To submit sequencing data for a standard CRISPR screen sequenced by GPP, the “Project data type” should be  “Raw sequence reads”. 
+The sample scope should then be selected appropriately from the drop-down menu. Samples from cell lines are considered to be "monoisolate",
+even if the samples being uploaded come from multiple different cell lines. </li>
+  <li>The following page is populated based on the selected scope. Enter information here about the sample organism.
 Continue to then select when the data should be released, include a “Project Title” (usually the title of the manuscript) and a description about the project (usually the abstract of the manuscript). You can also include grants and consortia associated with the project in this page. </li>
     <li>If you are submitting more than on one BioSample complete the BioProject without entering a BioSample number. The BioSamples can be created later using the BioProject number of the format PRJNA# you receive.</li>
 </ol>
@@ -59,6 +64,7 @@ Once a BioProject has been created and the BioSamples have been submitted, start
 You can use the BEV tool on GPP LIMS to demultiplex FASTQ files. Follow steps 1-3 under 
  <a href=https://broadinstitute.github.io/be-validation-pipeline/>Running BEV on LIMS</a>, 
 then check the box that says "Demultiplex only." 
+</ol>
 
 
 
